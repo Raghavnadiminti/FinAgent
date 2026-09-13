@@ -275,7 +275,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 MCP_SERVER = (
     BASE_DIR
     / "MCP"
-    / "Analytics_tools.py"
+    / "server.py"
 )
 
 analytics_mcp = McpToolset(

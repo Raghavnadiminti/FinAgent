@@ -1,7 +1,7 @@
 # mcp_analytics_tools.py
 
 from mcp.server.fastmcp import FastMCP
-
+from mcp_inst import mcp
 from DB.functions import (
     get_general_ledger,
     get_ar_aging,
@@ -9,7 +9,7 @@ from DB.functions import (
 )
 
 
-mcp = FastMCP("AI Accountant Analytics")
+
 
 
 # ============================================================
@@ -773,5 +773,5 @@ def calculate_aging(
 # SERVER
 # ============================================================
 
-if __name__ == "__main__":
-    mcp.run()
+# if __name__ == "__main__":
+#     mcp.run()

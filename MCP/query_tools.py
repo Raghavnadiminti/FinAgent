@@ -1,6 +1,6 @@
 # mcp.py
 
-from mcp.server.fastmcp import FastMCP
+from mcp_inst import mcp
 
 from DB.functions import (
     get_account,
@@ -20,7 +20,7 @@ from DB.functions import (
 )
 
 
-mcp = FastMCP("AI Accountant")
+
 
 
 @mcp.tool()

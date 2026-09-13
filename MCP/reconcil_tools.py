@@ -1,6 +1,6 @@
 from typing import Optional
 
-from mcp.server.fastmcp import FastMCP
+from mcp_inst import mcp
 
 from DB.functions import (
     get_invoice,
@@ -13,7 +13,7 @@ from DB.functions import (
 )
 
 
-mcp = FastMCP("AI Accountant Reconciliation")
+
 
 
 # ============================================================
@@ -1036,5 +1036,5 @@ def investigate_exception(
 # SERVER
 # ============================================================
 
-if __name__ == "__main__":
-    mcp.run()
+# if __name__ == "__main__":
+#     mcp.run()
