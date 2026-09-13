@@ -1,0 +1,93 @@
+# ================================
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# ================================
+# Environment & Secrets
+# ================================
+.env
+.env.*
+!.env.example
+
+# Credentials / private keys
+credentials/
+secrets/
+*.pem
+*.key
+*.crt
+
+# ================================
+# Google ADK / Gemini
+# ================================
+.adk/
+.adk_session/
+*.session
+
+# ================================
+# MCP / Runtime
+# ================================
+.mcp/
+*.log
+logs/
+
+# ================================
+# IDE
+# ================================
+.vscode/
+.idea/
+*.iml
+
+# ================================
+# OS
+# ================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ================================
+# Testing
+# ================================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# ================================
+# Build / Packaging
+# ================================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ================================
+# Local Databases
+# ================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ================================
+# Generated / Temporary Files
+# ================================
+tmp/
+temp/
+data/generated/
+
+# ================================
+# Jupyter
+# ================================
+.ipynb_checkpoints/
