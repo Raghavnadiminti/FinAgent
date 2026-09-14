@@ -28,7 +28,7 @@ validation_agent = LlmAgent(
 
     model=os.getenv(
         "GEMINI_MODEL",
-        "gemini-2.5-flash"
+        "openai/gpt-5-mini"
     ),
 
     description=(

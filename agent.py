@@ -12,7 +12,7 @@ orchestrator_agent = Agent(
 
     model=os.getenv(
         "GEMINI_MODEL",
-        "gemini-3.6-flash"
+        "openai/gpt-5-mini"
     ),
 
     description=(

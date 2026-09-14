@@ -297,7 +297,7 @@ analytics_mcp = McpToolset(
 root_agent = Agent(
     name="analytics_agent",
 
-    model="gemini-flash-latest",
+    model="openai/gpt-5-mini",
 
     description=(
         "Read-only financial analytics specialist. "

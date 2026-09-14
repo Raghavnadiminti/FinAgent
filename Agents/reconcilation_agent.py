@@ -270,7 +270,7 @@ Summarize the relevant findings.
 root_agent = Agent(
     name="reconciliation_agent",
 
-    model="gemini-flash-latest",
+    model="openai/gpt-5-mini",
 
     description=(
         "Reconciles accounting records including invoices, "
